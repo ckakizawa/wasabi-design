@@ -1,0 +1,230 @@
+@charset "UTF-8";
+.more_link {
+  padding-top: 1em; }
+
+.fa-chevron-right:before {
+  margin-left: 1.2em; }
+
+h1.lower_main_title {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #e1b9b9; }
+  h1.lower_main_title span {
+    font-size: 1.5em; }
+
+.lower_caption {
+  margin-bottom: 3em;
+  text-align: center; }
+
+div.lower_contact {
+  width: 100%;
+  background: #e1b9b9;
+  text-align: center;
+  padding: 5em 0;
+  margin-bottom: 7em;
+  color: #fff; }
+  div.lower_contact a.button_contact {
+    display: inline-block;
+    width: 30%;
+    line-height: 3.5em;
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 1.5em;
+    color: #e1b9b9; }
+    @media only screen and (max-width: 768px) {
+      div.lower_contact a.button_contact {
+        width: 80%; } }
+
+div.about_contents_box {
+  text-align: left;
+  margin-bottom: 3em;
+  position: relative; }
+  div.about_contents_box span:nth-of-type(2) {
+    padding: 0 1em;
+    line-height: 1.8em;
+    z-index: 1500;
+    display: inline-block;
+    width: 40%; }
+    @media only screen and (max-width: 768px) {
+      div.about_contents_box span:nth-of-type(2) {
+        width: 100%;
+        order: 3;
+        padding: 0; } }
+    div.about_contents_box span:nth-of-type(2) p:first-of-type {
+      font-size: 1.5em;
+      padding: 2em 0;
+      font-weight: bold;
+      font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体','ヒラギノ明朝 ProN','Hiragino Mincho ProN','Cambria','Georgia',sans-serif;
+      line-height: 1.4em; }
+      @media only screen and (max-width: 768px) {
+        div.about_contents_box span:nth-of-type(2) p:first-of-type {
+          padding: 1em 0; } }
+  div.about_contents_box picture {
+    width: 60%; }
+    @media only screen and (max-width: 768px) {
+      div.about_contents_box picture {
+        width: 80%; } }
+  div.about_contents_box img {
+    width: 100%;
+    height: auto; }
+  div.about_contents_box .lower_dot_box01 {
+    background: url(../images/lower/dot.png);
+    width: 60%;
+    height: 82%;
+    position: absolute;
+    top: 10%;
+    left: 10%; }
+    @media only screen and (max-width: 768px) {
+      div.about_contents_box .lower_dot_box01 {
+        width: 80%;
+        height: 41%;
+        top: 0;
+        right: 0; } }
+  div.about_contents_box .lower_dot_box02 {
+    background: url(../images/lower/dot.png);
+    width: 55%;
+    height: 78%;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    z-index: 1300; }
+    @media only screen and (max-width: 768px) {
+      div.about_contents_box .lower_dot_box02 {
+        width: 80%;
+        height: 41%;
+        top: 0;
+        right: 0;
+        order: 1; } }
+
+@media only screen and (max-width: 768px) {
+  div.about_contents_box:nth-of-type(2) picture {
+    order: 2; } }
+
+div.about_pfofile {
+  margin: 3em auto;
+  justify-content: space-between;
+  text-align: center; }
+  div.about_pfofile picture {
+    width: 30%; }
+    @media only screen and (max-width: 768px) {
+      div.about_pfofile picture {
+        width: 100%;
+        margin-bottom: 2em; } }
+    div.about_pfofile picture img {
+      width: 100%; }
+      @media only screen and (max-width: 768px) {
+        div.about_pfofile picture img {
+          width: 45%; } }
+  div.about_pfofile .about_details {
+    width: 65%;
+    text-align: left; }
+    @media only screen and (max-width: 768px) {
+      div.about_pfofile .about_details {
+        width: 100%; } }
+    div.about_pfofile .about_details dl {
+      margin-bottom: 0.8em; }
+    div.about_pfofile .about_details dt {
+      font-size: 110%;
+      padding-right: 2em;
+      width: 20%; }
+      @media only screen and (max-width: 768px) {
+        div.about_pfofile .about_details dt {
+          padding-right: 1em;
+          font-size: 105%; } }
+    div.about_pfofile .about_details dd {
+      width: 80%; }
+
+div.gallery_box {
+  justify-content: space-between;
+  margin-bottom: 5em; }
+  div.gallery_box a {
+    width: 22%;
+    margin-bottom: 1em; }
+    @media only screen and (max-width: 768px) {
+      div.gallery_box a {
+        width: 48%; } }
+  div.gallery_box img {
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 1.3s;
+    transition: all 1.3s;
+    border-radius: 5px; }
+  div.gallery_box img:hover {
+    opacity: 0.7;
+    -ms-filter: "alpha(opacity=70)"; }
+
+div.gallery_box::before, div.gallery_box::after {
+  content: "";
+  display: block;
+  width: 22%;
+  height: 0; }
+  @media only screen and (max-width: 768px) {
+    div.gallery_box::before, div.gallery_box::after {
+      width: 48%; } }
+
+div.gallery_box::before {
+  order: 1; }
+
+div.gallery_box .lightbox .lb-image {
+  border: 0;
+  border-radius: 0; }
+div.gallery_box .lb-data .lb-details {
+  line-height: 2.5em; }
+div.gallery_box .lb-data .lb-close {
+  margin-top: 10px; }
+
+ul.service_box {
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 3em; }
+  ul.service_box li.linkbox {
+    width: 30%;
+    background: #fff;
+    padding: 2em 1em;
+    border-radius: 5px; }
+    @media only screen and (max-width: 768px) {
+      ul.service_box li.linkbox {
+        width: 100%;
+        margin-bottom: 1em; } }
+    ul.service_box li.linkbox h3 {
+      font-size: 150%;
+      line-height: 3em;
+      color: #e1b9b9; }
+
+div.lower_skill_box {
+  text-align: center;
+  background: #fff;
+  padding: 5em 0;
+  margin-bottom: 5em; }
+  @media only screen and (max-width: 768px) {
+    div.lower_skill_box {
+      padding: 2em 0; } }
+  div.lower_skill_box i {
+    font-size: 300%; }
+  div.lower_skill_box h2 {
+    font-size: 150%;
+    line-height: 3em;
+    margin-bottom: 1em;
+    color: #e1b9b9; }
+  div.lower_skill_box .skills_logo {
+    justify-content: space-between; }
+
+div.works_button_box {
+  text-align: center;
+  justify-content: space-between; }
+  div.works_button_box a {
+    line-height: 3em;
+    width: 45%;
+    padding: 1em;
+    background: #e1b9b9;
+    color: #fff;
+    border-radius: 5px; }
+    @media only screen and (max-width: 768px) {
+      div.works_button_box a {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 1.5em; } }
+  div.works_button_box a:nth-of-type(2) {
+    color: #e1b9b9;
+    background: #fff;
+    border: 1px solid #e1b9b9; }
